@@ -20,7 +20,7 @@ function setup() {
 
   createCanvas(400, 400);
   angleMode(DEGREES);
-  text("Hiiiiiiiiiii, width *5,height *2");
+
 
   for (let i = 0; i <= 15; i++) {
 
@@ -47,8 +47,9 @@ function setup() {
 
 
 function draw() {
-  background(backgroundColor);
 
+  background(backgroundColor);
+text("Hiiiiiiiiiii, width *5,height *2");
   for (i = 0; i < star.length; i++) {
     star[i].display();
     star[i].move();
