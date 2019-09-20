@@ -49,7 +49,6 @@ function setup() {
 function draw() {
 
   background(backgroundColor);
-text("Hiiiiiiiiiii", 50,50);
   for (i = 0; i < star.length; i++) {
     star[i].display();
     star[i].move();
