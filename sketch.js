@@ -20,6 +20,7 @@ function setup() {
 
   createCanvas(400, 400);
   angleMode(DEGREES);
+  text("Hiiiiiiiiiii, width *5,height *2");
 
   for (let i = 0; i <= 15; i++) {
 
@@ -118,7 +119,7 @@ function mousePressed() {
 
 
   if (mouseX > width * .7 && mouseX < width * .95 && mouseY > height * .6 && mouseY < height * .9) {
-    //console.log("mouse try"); 
+    //console.log("mouse try");
     angleTail = -angleTail;
   } else if (mouseX < width * .6 || mouseX > width * 1) {
     bamYes = true;
@@ -130,7 +131,7 @@ function mousePressed() {
 
   //right carrot
   if (mouseX > width * .7 && mouseX < width * .95 && mouseY > height * .6 && mouseY < height * .9) {
-    //console.log("mouse try"); 
+    //console.log("mouse try");
     backgroundColor = ('#3A758C');
   } else {
     backgroundColor = ('#62CDD9');
